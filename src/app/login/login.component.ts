@@ -2,9 +2,9 @@ import { Component} from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { Router, ActivatedRoute } from '@angular/router';
 import { Http } from '@angular/http';
+import { contentHeaders } from '../common/headers';
 
-const styles   = require('./login.component.css');
-const template = require('./login.component.html');
+
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
